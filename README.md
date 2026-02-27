@@ -6,3 +6,5 @@ A dynamically rendered restaurant homepage built using Webpack and JavaScript DO
 - Modular JavaScript
 - Webpack bundling
 - Dynamic content rendering
+
+- https://nikola92-sudone.github.io/restaurant-homepage/
