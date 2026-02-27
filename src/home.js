@@ -1,4 +1,4 @@
-export function loadHome() {
+const loadHome = () => {
     // 1. Grab the container we want to append everything to
     const content = document.getElementById('content');
 
@@ -33,7 +33,6 @@ export function loadHome() {
     hoursStrong.textContent = 'Hours: ';
     hoursRow.append(hoursStrong, 'Mon–Fri 11–10, Sat–Sun 12–11');
 
-
     const locationRow = document.createElement('div');
     locationRow.classList.add('info-row');
     const locationStrong = document.createElement('strong');
@@ -50,4 +49,6 @@ export function loadHome() {
     homeDiv.append(heroSection, infoSection);
 
     content.appendChild(homeDiv);
-}
+};
+
+export default loadHome;
