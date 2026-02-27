@@ -1,1 +1,3 @@
-console.log("JavaScript is running!");
+import { loadHome } from "./home.js";
+
+loadHome();
